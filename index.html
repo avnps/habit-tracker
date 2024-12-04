@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhanced Habit Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="loginPage" class="container">
+    <h1>Login</h1>
+    <input type="text" id="usernameInput" placeholder="Enter username">
+    <input type="password" id="passwordInput" placeholder="Enter password">
+    <button id="loginButton">Login</button>
+  </div>
+
+  <div id="habitTrackerPage" class="container" style="display: none;">
+    <h1>Habits</h1>
+    <div class="add-habit-container">
+      <input type="text" id="habitInput" placeholder="Add a new habit">
+      <button id="addHabitButton">Add Habit</button>
+    </div>
+    <div id="todayHabits" class="habits-list"></div>
+    <button id="logoutButton" class="logout-btn">Logout</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
